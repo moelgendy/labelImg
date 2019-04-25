@@ -71,6 +71,7 @@ macOS using conda environment and py3
 download this github repo, unzip and cd into the labelImg directory. Run this code:
 
 .. code::
+
     conda install pyqt=5
     conda install libxml2
     conda install lxml
