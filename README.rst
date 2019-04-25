@@ -66,6 +66,18 @@ Python 3 + Qt5 (Recommanded)
     python3 labelImg.py
     python3 labelImg.py [IMAGE_PATH] [PRE-DEFINED CLASS FILE]
 
+macOS using conda environment and py3
+^^^^
+download this github repo, unzip and cd into the labelImg directory. Run this code:
+
+.. code::
+    conda install pyqt=5
+    conda install libxml2
+    conda install lxml
+    make qt5py2
+    python labelImg.py
+
+
 macOS
 ^^^^
 Python 2 + Qt4
@@ -277,4 +289,3 @@ Related
 2. `Use Docker to run labelImg <https://hub.docker.com/r/tzutalin/py2qt4>`__
 3. `Generating the PASCAL VOC TFRecord files <https://github.com/tensorflow/models/blob/4f32535fe7040bb1e429ad0e3c948a492a89482d/research/object_detection/g3doc/preparing_inputs.md#generating-the-pascal-voc-tfrecord-files>`__
 4. `App Icon based on Icon by Nick Roach (GPL)` <https://www.elegantthemes.com/> <https://www.iconfinder.com/icons/1054978/shop_tag_icon> __
-
